@@ -173,11 +173,11 @@ local hash = SUDO..'settings:'..chat..':'..value
               local keyboard = {}
 							keyboard.inline_keyboard = {
 								{
-                 {text = 'تنظیمات گروه', callback_data = 'groupsettings:'..chat} --,{text = 'واحد فروش', callback_data = 'aboute:'..chat}
+                 {text = '⚙🛠تنظیمات گروه🛠⚙', callback_data = 'groupsettings:'..chat} --,{text = 'واحد فروش', callback_data = 'aboute:'..chat}
                 },{
-				 {text = 'پشتیبانی', callback_data = 'supportbot:'..chat},{text = 'تبلیغات شما', callback_data = 'youradds:'..chat}
+				 {text = '🚀پشتیبانی🚀', callback_data = 'supportbot:'..chat},{text = '💸تبلیغات💸', callback_data = 'youradds:'..chat}
 				  },{
-				 {text = 'اطلاعات گروه', callback_data = 'groupinfo:'..chat},{text = 'راهنما', callback_data = 'helpbot:'..chat}
+				 {text = '📉🗃اصلاعات گروه🗃📈', callback_data = 'groupinfo:'..chat},{text = '📋راهنما📋', callback_data = 'helpbot:'..chat}
 				}
 							}
             answer(q.id,'settings','Group settings',chat,'به بخش اصلی خوش آمدید.\nاز منوی زیر انتخاب کنید:',keyboard)
@@ -291,11 +291,11 @@ local hash = SUDO..'settings:'..chat..':'..value
               local keyboard = {}
 							keyboard.inline_keyboard = {
 								{
-                 {text = 'تنظیمات گروه', callback_data = 'groupsettings:'..chat} --,{text = 'واحد فروش', callback_data = 'aboute:'..chat}
+                 {text = '⚙🛠تنظیمات گروه🛠⚙', callback_data = 'groupsettings:'..chat} --,{text = 'واحد فروش', callback_data = 'aboute:'..chat}
                 },{
-				 {text = 'پشتیبانی', callback_data = 'supportbot:'..chat},{text = 'تبلیغات شما', callback_data = 'youradds:'..chat}
+				 {text = '🚀پشتیبانی🚀', callback_data = 'supportbot:'..chat},{text = '💸تبلیغات💸', callback_data = 'youradds:'..chat}
 				  },{
-				 {text = 'اطلاعات گروه', callback_data = 'groupinfo:'..chat},{text = 'راهنما', callback_data = 'helpbot:'..chat}
+				 {text = '📉🗃اصلاعات گروه🗃📈', callback_data = 'groupinfo:'..chat},{text = '📋راهنما📋', callback_data = 'helpbot:'..chat}
 				}
 							}
             edit(q.inline_message_id,'`به بخش اصلی خوش آمدید.`\n`از منوی زیر انتخاب کنید:`',keyboard)
@@ -995,7 +995,7 @@ local hash = SUDO..'settings:'..chat..':'..value
                    {text = '↩️🌟منوی اصل🌟↩️', callback_data = 'firstmenu:'..chat},{text = '⏪🔙صفحه قبلی🔙⏪', callback_data = 'herfeiimanage:'..chat}
 				}
 							}
-              edit(q.inline_message_id,'`قیمت طرح های مربوط به این ربات:`\n`ماهانه(30 الی 31 روز کامل)` >  *16900*\n`سالانه(365 روز کامل)` > *37500*\n`دائمی/مادام العمر(نامحدود روز)` > *49000*\n`تمامی قیمت ها به` تومان `میباشد.`',keyboard)
+              edit(q.inline_message_id,'`قیمت طرح های مربوط به این ربات:`\n`ماهانه(30 الی 31 روز کامل)` >  *12000*\n`سالانه(365 روز کامل)` > *120000*\n`شش ماهه )` > *65000*\n`تمامی قیمت ها به` تومان `میباشد.`',keyboard)
             end
 							----------------------------------بررسی قابلیت ها--------------------------------------
 							if q.data:match('pishrafteberesi') then
