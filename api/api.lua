@@ -1116,7 +1116,7 @@ local function getsettings(value)
                 },{
                   {text=getsettings('contact'),callback_data=chat..':lock contact'},{text = '☎فیلترمخاطبین☎', callback_data = chat..'_contact'}
                 },{
-                   {text = '↩️🌟منوی اصل🌟↩️', callback_data = 'firstmenu:'..chat},{text = '▶️ صفحه بعدی', callback_data = 'next_page:'..chat}
+                   {text = '↩️🌟منوی اصل🌟↩️', callback_data = 'firstmenu:'..chat},{text = '➡️صفحه بعد➡️', callback_data = 'next_page:'..chat}
                 }
 							}
             edit(q.inline_message_id,'تنظیمات-ابرگروه(فیلترها):',keyboard)
@@ -1187,7 +1187,7 @@ local function getsettings(value)
                 },{
                   {text=getsettings('contact'),callback_data=chat..':lock contact'},{text = '☎فیلترمخاطبین☎', callback_data = chat..'_contact'}
                 },{
-                   {text = '↩️🌟منوی اصل🌟↩️', callback_data = 'firstmenu:'..chat},{text = '▶️ صفحه بعدی', callback_data = 'next_page:'..chat}
+                   {text = '↩️🌟منوی اصل🌟↩️', callback_data = 'firstmenu:'..chat},{text = '➡️صفحه بعد➡️', callback_data = 'next_page:'..chat}
                 }
 							}
               edit(q.inline_message_id,'تنظیمات-ابرگروه(بخش1):',keyboard)
@@ -1265,11 +1265,11 @@ local function getsettings(value)
                 },{
                   {text=getsettings('tgservice'),callback_data=chat..':lock tgservice'},{text = '🎬قفل پیام ورود🎬', callback_data = chat..'_tgservice'}
                 },{
-                 {text=getsettings('muteall'),callback_data=chat..':lock muteall'}, {text = 'فیلتر تمامی گفتگو ها', callback_data = chat..'_muteall'}
+                 {text=getsettings('muteall'),callback_data=chat..':lock muteall'}, {text = '⛔️قفل همه چیز⛔️', callback_data = chat..'_muteall'}
                 },{
-                 {text=getsettings('welcome'),callback_data=chat..':lock welcome'}, {text = 'پیغام خودش آمدگویی', callback_data = chat..'_welcome'}
+                 {text=getsettings('welcome'),callback_data=chat..':lock welcome'}, {text = '💟پیام خوشامد💟', callback_data = chat..'_welcome'}
                 },{
-                 {text=getsettings('spam'),callback_data=chat..':lock spam'}, {text = 'عملکرد قفل ارسال هرزنامه', callback_data = chat..'_spam'}
+                 {text=getsettings('spam'),callback_data=chat..':lock spam'}, {text = '🚫عملکرد اسپم🚫', callback_data = chat..'_spam'}
                 },{
                  {text = 'حداکثر زمان ارسال هرزنامه: '..tostring(TIME_MAX)..' ثانیه', callback_data = chat..'_TIME_MAX'}
                 },{
@@ -1281,7 +1281,7 @@ local function getsettings(value)
 									},{
                   {text='تاریخ انقضاء گروه: '..getsettings('charge'),callback_data=chat..'_charge'}
                 },{
-                  {text = '⏪🔙صفحه قبلی🔙⏪', callback_data = 'left_page:'..chat},{text = '▶️ صفحه بعدی', callback_data = 'next_pagee:'..chat}
+                  {text = '⏪🔙صفحه قبلی🔙⏪', callback_data = 'left_page:'..chat},{text = '➡️صفحه بعد➡️', callback_data = 'next_pagee:'..chat}
                 }
 							}
               edit(q.inline_message_id,'تنظیمات-ابرگروه:',keyboard)
